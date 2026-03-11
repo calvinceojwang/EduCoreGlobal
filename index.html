@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="/educore-logo.png" />
+    <link rel="apple-touch-icon" href="/educore-logo.png" />
+    <!-- TODO: Set the document title to the name of your application -->
+    <title>EduCore Global Institute | Professional Training & Certifications</title>
+    <meta name="description" content="Unlock your potential with expert-led training in Computer Science, Finance & Accounting, and professional certifications. Learn from industry leaders." />
+    <meta name="author" content="EduCore Global Institute" />
+    <meta name="keywords" content="training, certifications, computer science, finance, accounting, CPA, AWS, professional development, Kenya, Nairobi" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; connect-src 'self' https://*.supabase.co https://api.resend.com https://*.safaricom.co.ke; img-src 'self' data: https:; font-src 'self' data: https:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; frame-ancestors 'none'; object-src 'none'; form-action 'self'; upgrade-insecure-requests;" />
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin" />
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <meta http-equiv="X-Frame-Options" content="DENY" />
+    <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), payment=()" />
+
+    <meta property="og:title" content="EduCore Global Institute | Professional Training & Certifications" />
+    <meta property="og:description" content="Unlock your potential with expert-led training in Computer Science, Finance & Accounting, and professional certifications." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/educore-logo.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@EduCoreGlobal" />
+    <meta name="twitter:image" content="/educore-logo.png" />
+  </head>
+
+  <body>
+    <div id="root">
+      <div style="font-family: Arial, sans-serif; padding: 24px; line-height: 1.5;">
+        <h2 style="margin: 0 0 8px;">Loading EduCore...</h2>
+        <p style="margin: 0;">If this screen stays here, run this project with Vite (not Live Server).</p>
+      </div>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      setTimeout(function () {
+        var root = document.getElementById("root");
+        if (!root) return;
+        var text = (root.textContent || "").trim();
+        if (text.indexOf("Loading EduCore...") !== -1) {
+          root.innerHTML =
+            '<div style="font-family: Arial, sans-serif; padding: 24px; line-height: 1.6;">' +
+            "<h2 style='margin:0 0 8px;'>App Not Started</h2>" +
+            "<p style='margin:0 0 8px;'>This project uses Vite + React + TypeScript and will show blank on Live Server.</p>" +
+            "<p style='margin:0;'>Install Node.js, then run: <code>npm install</code> and <code>npm run dev</code>.</p>" +
+            "</div>";
+        }
+      }, 2500);
+    </script>
+  </body>
+</html>
